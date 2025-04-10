@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Patrick & SpongeBob</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #4398ad, #d0d9dd); /* 天藍 → 深海藍 */
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    h1 {
+      color: #fff;
+      text-shadow: 2px 2px #333;
+      margin-bottom: 40px;
+    }
+    .characters {
+      display: flex;
+      gap: 60px;
+      align-items: flex-end;
+    }
+    img {
+      width: 200px;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="characters">
+    <img src="2018050258856849.png" alt="Teen Titans">
+    <h1>少年悍將(Teen Titans)</h1>
+    <img src="0001612791.jpg" alt="Teen Titans">
+  </div>
+</body>
+</html>
